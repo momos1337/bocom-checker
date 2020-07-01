@@ -14,6 +14,8 @@ sudo apt-get install nodejs
 
 sudo apt-get install npm
 
+npm install
+
 Termux
 
 pkg install nodejs
