@@ -1,4 +1,10 @@
 # bocom-checker
+
+run??
+
+node bocom.js
+
+
 how to install?
 
 
