@@ -1,0 +1,19 @@
+{
+  "name": "momos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bocom.js",
+  "dependencies": {
+    "delay": "^4.3.0",
+    "figlet": "^1.4.0",
+    "node-fetch": "^2.6.0",
+    "readline-sync": "^1.4.10",
+    "shell_exec": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
