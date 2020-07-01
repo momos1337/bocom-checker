@@ -20,9 +20,16 @@ const kontol = (email, password) => new Promise ((resolve, reject) => {
     fetch(URL, {
         method: 'POST',
         headers: {
+            'X-LIBRARY': 'okhttp+network-api',
             'Host': 'account.booking.com',
+            'Authorization': 'Basic dGhlc2FpbnRzYnY6ZGdDVnlhcXZCeGdN',
+            'User-Agent': 'Booking.App/22.9 Android/8.1.0; Type: mobile; AppStore: google; Brand: asus; Model: ASUS_X00HD',
+            'X-Booking-API-Version': '1',
+            'Content-Type': 'application/x-gzip; contains="application/json"; charset=utf-8',
+            'Connection': 'Keep-Alive',
             'X-Requested-With': 'XMLHttpRequest',
             'Content-Type': 'application/json'
+            
         },
         body: JSON.stringify(data)
     })
