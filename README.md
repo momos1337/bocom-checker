@@ -8,7 +8,7 @@ node bocom.js
 how to install?
 
 
-Ubuntu
+Ubuntu :
 
 sudo apt-get install nodejs
 
@@ -16,7 +16,7 @@ sudo apt-get install npm
 
 npm install
 
-Termux
+Termux :
 
 pkg install nodejs
 
